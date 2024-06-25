@@ -5,14 +5,8 @@ $(".burger").click(function(){
 })
 let myImageSlider = new Swiper('.image-slider',{
   shortSwipes: false,
-  slidesPerView: 1,
-  spaceBetween: 30,
   loop: true,
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev'},
-    } 
-);
+});
 let myTextSlider = new Swiper('.text-slider',{
   slidesPerView: 1,
   spaceBetween: 30,

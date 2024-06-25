@@ -1089,8 +1089,10 @@ body {
   list-style: none;
 }
 .footer-colums__item:hover {
-  color: #53595e;
+  /* text-shadow: 1px 1px #7f888f; */
   font-weight: 700;
+  /* box-sizing: border-box; */
+  color: #7f888f;
 }
 .footer-colums__item a {
   text-decoration: none;
