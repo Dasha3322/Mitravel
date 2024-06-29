@@ -42,11 +42,16 @@ new Swiper('.featured-videos-swiper',{
     },
     // when window width is >= 992px
     992: {
+      slidesPerView: 3,
       spaceBetween: 25
     },
     // when window width is >= 1200px
     1201: {
+      slidesPerView: 3,
       spaceBetween: 30
     },
+    1920:{
+      slidesPerView: 3,
+    }
 },
 });
