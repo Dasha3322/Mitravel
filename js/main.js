@@ -55,3 +55,14 @@ new Swiper('.featured-videos-swiper',{
     }
 },
 });
+
+
+
+
+$('document').ready(function(){
+  $('.stories-left-link').click(function(){
+      $('.stories-right').slideToggle('slow');
+return false;
+});
+});
+

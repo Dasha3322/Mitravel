@@ -608,6 +608,26 @@ body{
         }
     }
 }
+.stories-left-link{
+    display: none;
+    border-radius: 24px;
+    background-color: #E8594E;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 19px 22px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    text-decoration: none;
+    transition: .3s;
+    &:hover{
+        background-color: #73AFBA;
+        &:hover{
+            background-color: #E8594E
+        }
+    }
+}
 .stories-right{
     position: absolute;
     top: 0;
@@ -1290,6 +1310,7 @@ body{
         }
     }
     .video-btn{
+        cursor: pointer;
         &__play{
             top: 25px;
             left: 12%;
@@ -1329,7 +1350,7 @@ body{
             width: 70%;
         }
         &-right{
-            padding: 118px 63px 36px 63px;
+            padding: 79px 63px 57px 63px;
         }
     }
     .featured-videos {
@@ -1423,6 +1444,7 @@ body{
         }
     }
     .video-btn{
+        cursor: pointer;
         &__play{
             top: 25px;
             left: 14%;
@@ -1450,6 +1472,7 @@ body{
         }
     }
     .video-btn{
+        cursor: pointer;
         &__play{
             top: 25px;
             left: 14%;
@@ -1504,7 +1527,7 @@ body{
         margin-bottom: 43px;
     }
     .stories-right {
-        padding: 55px 21px 36px 30px;
+        padding: 106px 21px 36px 30px;
         &__title{
             font-size: 40px;
             margin: 0 0 96px 21px;
@@ -1524,6 +1547,7 @@ body{
         padding-left: 0;
     }
     .video-btn{
+        cursor: pointer;
         &__play{
             top: 25px;
             left: 10%;
@@ -1537,6 +1561,7 @@ body{
         margin-left: -55px;
     }
     .inspiration{
+    
         &__flex1-card{
             height: 391px;
             gap: 20px;
@@ -1627,12 +1652,221 @@ body{
 }
 @media (max-width: 576px){
     .video-btn{
+        cursor: pointer;
         &__play{
             top: 25px;
             left: 14%;
             background-size: 70%;
         }
 }
+.hero{
+    &__search{
+        right: 7px;
+    }
+}
+.stories{
+    &__container{
+        height: 600px;
+    }
+}
+.stories-left{
+    width: 80%;
+    &__article{
+        display: none;
+    }
+}
+.stories-left-link{
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+.stories-right__title {
+    font-size: 33px;
+    margin: 0px 0 34px 18px;
+}
+.stories-right__item:not(:last-child){
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+.stories-right {
+    display: none;
+    padding: 39px 104px 34px 104px;
+    background: rgba(60, 74, 81, 1);
+    max-height: 74%;
+    margin-top: 135px;
+    top: auto;
+    &__item-title{
+        font-size: 15px;
+    }
+}
+.sign-up__form {
+    right: 97px;
+}
+.inspiration{
+    &__subtitle{
+        width: 90%;
+        margin: 0 auto 60px auto;
+    }
+    &__flex1-card{
+        flex-direction: column;
+        height: 50%;
+    }
+    &__flex2-card{
+        height: 50%;
+        flex-direction: column;
+    }
+    &__flex3-card{
+        height: 50%;
+        flex-direction: column;
+        padding-bottom: 65px;
+    }
+}
+.flex1-card{
+    &__left {
+    width: 100%;
+    }
+    &__article{
+        margin-top: 28px;
+        margin-right: 28px;
+
+    }
+    &__right {
+        width: 100%;
+        }
+}
+.flex1-card-left{
+    &__title {
+    font-size: 21px;
+    }
+    &__content{
+        margin-left: 30px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+}
+.flex1-card-right{
+    &__content{
+        margin-left: 30px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    &__title{
+        margin-bottom: 20px;
+        font-size: 21px;
+    }
+}
+.flex1-right{
+    &__link{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+}
+.flex2-card{
+    &__left{
+        width: 100%;
+        background-position-y: center;
+    }
+    &__middle{
+        width: 100%;
+        background-position-y: center;
+    }
+    &__right{
+        width: 100%;
+    }
+}
+.flex2-card-left{
+    &__content{
+        margin-left: 30px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    &__title{
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+}
+.flex2-card-middle{
+    &__title{
+        margin-top: 120px;
+        font-size: 21px;
+    }
+}
+.flex2-card-right{
+    &__desc{
+        margin-top: 47px;
+    }
+    &__avatar{
+        margin-bottom: 30px;
+    }
+}
+.flex3-card{
+    &__left{
+        width: 100%;
+    }
+    &__right{
+        width: 100%;
+    }
+}
+.flex3-left{
+    &__link{
+        margin-top: 30px;
+        margin-left: 30px; 
+    }
+}
+.flex3-card-left{
+    &__content{
+        margin-left: 30px;
+        margin-bottom: 30px;
+        margin-top: 25px;
+    }
+    &__title{
+        margin-bottom: 20px;
+        font-size: 21px;
+    }
+}
+.flex3-card{
+    &__article{
+        margin-top: 28px;
+        margin-right: 28px;
+
+    }
+}
+.flex3-card-right{
+    &__title {
+    font-size: 21px;
+    }
+    &__content{
+        margin-left: 30px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+}
+.footer {
+    padding-top: 64px;
+}
+.footer-colums{
+    &__title::before {
+    left: 96px;
+    }
+    &__form{
+        width: 90%;
+    }
+    &__input{
+        padding: 22px 42px 22px 18px;
+    }
+    }
+.copyright{
+    padding: 21px 0;
+    &__container{
+        flex-direction: column;
+    }
+    &__list{
+        width: 100%;
+    }
+    &__desc{
+        width: 100%;
+    }
+    }
 }
 @media (max-width: 425px){
     .hero{
@@ -1695,9 +1929,6 @@ body{
             font-weight: 500;
         }
     }
-    .stories-right{
-        display: none;
-    }
     .stories-left{
         width: 55%;
         &__title {
@@ -1708,10 +1939,34 @@ body{
             font-weight: 600;
             margin: 0px 0 102px 0;
         }
+        &__article{
+            display: none;
+        }
     }
     .stories{
         &__container{
             height: 600px;
+        }
+    }
+    .stories-left-link{
+        display: inline-block;
+        text-decoration: none;
+        margin-bottom: 50px;
+    }
+    .stories-right__title {
+        font-size: 33px;
+        margin: 0px 0 34px 18px;
+    }
+    .stories-right__item:not(:last-child){
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+    }
+    .stories-right {
+        padding: 34px 21px 34px 36px;
+        max-height: 74%;
+        margin-top: 135px;
+        &__item-title{
+            font-size: 15px;
         }
     }
     .featured-videos{
@@ -1740,6 +1995,7 @@ body{
         }
     }
     .video-btn{
+        cursor: pointer;
         &__play{
             top: 0px;
             left: 14%;
@@ -1990,6 +2246,9 @@ body{
     }
     .stories-left__link{
         letter-spacing: 2px;
+    }
+    .stories-right {
+        padding: 24px 21px 22px 29px;
     }
     .sing-up__content {
         padding-top: 125px;
