@@ -339,7 +339,7 @@ body {
 .text-slider__slide {
   font-weight: 900;
   font-size: 12px;
-  letter-spacing: 0.18em;
+  letter-spacing: 3px;
   text-transform: uppercase;
   text-align: center;
   color: #fff;
@@ -1555,7 +1555,7 @@ body {
     max-width: 411px;
   }
   .image-slider {
-    margin-bottom: 20px;
+    margin-bottom: 34px;
   }
   .image-slide__play {
     top: 101px;
@@ -1811,7 +1811,7 @@ body {
     max-width: 361px;
   }
   .image-slider {
-    margin-bottom: 7px;
+    margin-bottom: 22px;
   }
   .text-slider {
     margin-bottom: 30px;
