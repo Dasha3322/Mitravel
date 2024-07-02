@@ -239,7 +239,6 @@ body {
   display: flex;
   flex-shrink: 0;
   max-width: 68%;
-  flex-basis: 510px;
   flex-grow: 1;
   height: 120px;
   padding-left: 56px;
@@ -260,7 +259,7 @@ body {
   font-weight: 500;
   color: #1C2E3D;
   outline: none;
-  padding: 0;
+  padding: 0 10px 0 0;
   cursor: pointer;
 }
 .search-form__input::-moz-placeholder {
@@ -1261,6 +1260,11 @@ body {
     height: 669px;
   }
 }
+@media (max-width: 1333px) {
+  .stories-left {
+    max-width: 35%;
+  }
+}
 @media (max-width: 1200px) {
   .video-slider__image {
     height: 418px;
@@ -1272,6 +1276,15 @@ body {
     top: 25px;
     left: 12%;
     background-size: 70%;
+  }
+  .footer__container {
+    justify-content: center;
+  }
+  .footer-colums {
+    text-align: center;
+  }
+  .footer-colums__title::before {
+    left: 163px;
   }
 }
 @media (max-width: 1024px) {
@@ -1408,6 +1421,28 @@ body {
     left: 14%;
     background-size: 70%;
   }
+  .hero__search {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    bottom: -220px;
+  }
+  .hero__link {
+    margin: 0 0 80px 0;
+  }
+  .hero .search-form {
+    flex-basis: 100px;
+    width: 381px;
+    border-right: 1px solid rgba(223, 223, 223, 0.5);
+    border-left: 1px solid rgba(223, 223, 223, 0.5);
+    border-bottom: 1px solid rgba(223, 223, 223, 0.5);
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+  }
+  .lesson {
+    padding: 201px 0px 105px;
+  }
 }
 @media (max-width: 768px) {
   .lesson {
@@ -1433,13 +1468,16 @@ body {
   .hero__search {
     flex-wrap: wrap;
     flex-direction: column-reverse;
-    width: 510px;
+    align-items: center;
+    width: 100%;
     bottom: -220px;
-    right: 100px;
   }
-  .hero .search-form {
+  .hero__link {
+    margin: 0 0 80px 0;
+  }
+  .search-form {
     flex-basis: 100px;
-    width: 502px;
+    width: 381px;
     border-right: 1px solid rgba(223, 223, 223, 0.5);
     border-left: 1px solid rgba(223, 223, 223, 0.5);
     border-bottom: 1px solid rgba(223, 223, 223, 0.5);
@@ -1556,9 +1594,60 @@ body {
     margin: 0 15px;
   }
 }
+@media (max-width: 680px) {
+  .stories {
+    padding-top: 76px;
+  }
+  .stories__container {
+    height: 100%;
+  }
+  .stories__row {
+    align-items: center;
+  }
+  .stories-left {
+    width: 80%;
+    max-width: 70%;
+  }
+  .stories-left__article {
+    display: none;
+  }
+  .stories-left-link {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 50px;
+  }
+  .stories-right__title {
+    font-size: 33px;
+    margin: 0px 0 34px 18px;
+  }
+  .stories-right__item:not(:last-child) {
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+  }
+  .stories-right {
+    display: none;
+    padding: 39px 156px 34px 156px;
+    background: rgb(60, 74, 81);
+    max-height: 74%;
+    margin-top: 135px;
+    top: auto;
+  }
+  .stories-right__item-title {
+    font-size: 15px;
+  }
+}
 @media (max-width: 576px) {
+  .hero__form {
+    max-width: 58%;
+  }
   .video-btn {
     cursor: pointer;
+  }
+  .slider__wrapper {
+    max-width: 419px;
+  }
+  .image-slide__play {
+    top: 104px;
   }
   .video-btn__play {
     top: 25px;
@@ -1566,7 +1655,7 @@ body {
     background-size: 70%;
   }
   .hero__search {
-    right: 7px;
+    width: 100%;
   }
   .stories__container {
     height: 600px;
@@ -1738,6 +1827,24 @@ body {
     width: 100%;
   }
 }
+@media (max-width: 458px) {
+  .stories-left {
+    width: 83%;
+    height: 100%;
+  }
+  .hero__form {
+    max-width: 75%;
+  }
+  .lesson__item {
+    width: 46%;
+  }
+  .sign-up__form {
+    width: 74%;
+  }
+  .footer-colums__title::before {
+    left: 68px;
+  }
+}
 @media (max-width: 425px) {
   .hero__content {
     padding: 129px 0 275px;
@@ -1790,7 +1897,9 @@ body {
     font-weight: 500;
   }
   .stories-left {
-    width: 55%;
+    width: 86%;
+    max-width: 99%;
+    height: 88%;
   }
   .stories-left__title {
     font-size: 26px;
@@ -2056,6 +2165,7 @@ body {
   }
   .stories-left {
     width: 80%;
+    max-width: 96%;
   }
   .stories-left__link {
     letter-spacing: 2px;

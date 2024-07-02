@@ -86,3 +86,997 @@
     //     margin-left: 0;
     // }
 }
+@media (max-width: 1920px){
+    .video-slider{
+        &__image{
+            height: 669px;
+        }
+    }
+}
+@media (max-width: 1333px){
+    .stories-left {
+        max-width: 35%;
+    }
+}
+@media (max-width: 1200px){
+    .video-slider{
+        &__image{
+            height: 418px;
+        }
+    }
+    .video-btn{
+        cursor: pointer;
+        &__play{
+            top: 25px;
+            left: 12%;
+            background-size: 70%;
+        }
+}
+}
+@media (max-width: 1024px){
+    .lesson{
+        &__row{
+            flex-wrap: wrap;
+        }
+        &__item{
+            width: 30%;
+        }
+    }
+    .hero{
+        &__search{
+            flex-wrap: wrap;
+        }
+    }
+    .search-form{
+        flex-basis: 0;
+    }
+    .image-slider{
+        margin-bottom: 50px;
+    }
+    .text-slider__slide{
+        padding-top: 4px;
+    }
+    .stories{
+        display: flex;
+        &__container{
+            margin-left: 10px;
+        }
+        &-left{
+            width: 70%;
+        }
+        &-right{
+            padding: 79px 63px 57px 63px;
+        }
+    }
+    .featured-videos {
+        padding: 113px 0;
+    }
+    .featured-videos-swiper{
+            max-width: 100%;
+        }
+    .video-slider{
+        &__image{
+            height: 418px;
+        }
+    }
+    .sign-up{
+        &__container{
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 0;
+        }
+        &__form{
+            right: 309px;
+            bottom: -260px;
+        }
+        &__title{
+            margin-bottom: 10px;
+        }
+    }
+    .sing-up{
+        
+        &__content{
+            margin-left: -21px;
+            padding-top: 246px;
+        }
+    }
+    .inspiration{
+        &__title{
+            padding: 230px 0 0 0;
+        }
+        &__flex2-card{
+            height: 453px;
+        }
+        &__flex3-card{
+            padding-bottom: 92px;
+        } 
+    }
+    .flex1-card{
+        &__left{
+            width: 54%;
+        }
+        &__right{
+            width: 52%;
+        }
+    }
+    .flex2-card{
+        &__right{
+            gap: 74px;
+        }
+    }
+    .flex2-card-right{
+        &__content{
+            max-width: 70%;
+        }
+        &__title{
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 125%;
+        }
+    }
+    .flex2-card-left{
+        &__title{
+            font-weight: 600;
+            font-size: 28px;
+        }
+    }
+    .flex2-card-middle__title {
+        font-size: 27px;
+    }
+    .flex3-card{
+        &__left{
+            width: 54%;
+        }
+        &__right{
+            width: 52%;
+        }
+    }
+    .video-slider{
+        &__slide{
+            width: 648px;
+        }
+    }
+    .video-btn{
+        cursor: pointer;
+        &__play{
+            top: 25px;
+            left: 14%;
+            background-size: 70%;
+        }
+}
+    .footer{
+        padding-top: 87px;
+    }
+    .footer-colums{
+        text-align: center;
+        &__title::before{
+            left: 157px;
+        }
+}
+}
+@media (max-width: 991px){
+    .featured-videos-swiper{
+        max-width: 33%;
+        padding-left: 651px;
+    }
+    .featured-videos{
+        &-slider{
+            margin: 0 -450px;
+        }
+    }
+    .video-btn{
+        cursor: pointer;
+        &__play{
+            top: 25px;
+            left: 14%;
+            background-size: 70%;
+        }
+}
+}
+@media (max-width: 768px){
+    .lesson{
+        margin-bottom: 0;
+        padding: 201px 0px 105px;
+        &__title{
+        font-size: 42px;
+        }
+        &__item{
+            width: 47%;
+        }
+    }
+    .hero{
+        margin-bottom: 100px;
+        &__form{
+            max-width: 74.5%;
+        }
+        &__link{
+            margin-bottom: 60px;
+        }
+        &__search{
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            width: 510px;
+            bottom: -220px;
+            right: 100px;
+        }
+        .search-form{
+            flex-basis: 100px;
+            width: 502px;
+            border-right: 1px solid rgba(223, 223, 223, 0.5);
+            border-left: 1px solid rgba(223, 223, 223, 0.5);
+            border-bottom: 1px solid rgba(223, 223, 223, 0.5);
+            border-top: none;
+            border-radius: 0 0 10px 10px;
+        }
+        border: 1px solid rgba(223, 223, 223, 0.5);
+    }
+    .text-slider{
+        margin-bottom: 43px;
+        &__slide{
+            padding-top: 4px;
+        }
+    }
+    .image-slider{
+        margin-bottom: 43px;
+    }
+    .stories-right {
+        padding: 106px 21px 36px 30px;
+        &__title{
+            font-size: 40px;
+            margin: 0 0 96px 21px;
+        }
+    }
+    .stories-left {
+        width: 43%;
+        &__title{
+            font-size: 34px;
+        }
+        &__link{
+        padding: 22px 39px;
+        }
+        }
+    .featured-videos-swiper{
+        max-width: 100%;
+        padding-left: 0;
+    }
+    .video-btn{
+        cursor: pointer;
+        &__play{
+            top: 25px;
+            left: 10%;
+            background-size: 70%;
+        }
+    }
+    .sign-up__form {
+        right: 190px;
+    }
+    .sing-up__content {
+        margin-left: -55px;
+    }
+    .inspiration{
+    
+        &__flex1-card{
+            height: 391px;
+            gap: 20px;
+        }
+        &__flex2-card{
+            height: 341px;
+            gap: 20px;
+        }
+        &__flex3-card{
+            height: 391px;
+            gap: 30px;
+        }
+    }
+    .flex1-card-left{
+        &__title{
+            font-size: 27px;
+        }
+    }
+    .flex1-card-right{
+        &__title{
+            font-size: 27px;
+            width: 90%;
+        }
+    }
+    .flex2-card-left{
+        &__content{
+            margin-left: 29px;
+            margin-bottom: 29px;
+        }
+        &__desc{
+            display: block;
+            margin: 64px 0 18px 0;
+        }
+    }
+    .flex2-card-middle{
+        &__content{
+            margin-left: 29px;
+            margin-bottom: 29px;
+        }
+    }
+    .flex2-card-left{
+        &__title{
+            font-size: 23px;
+        }
+    }
+    .flex2-card-right{
+        &__title{
+            font-size: 19px;
+            width: 100%;
+        }
+    }
+    .flex2-card{
+        &__right{
+            gap: 33px;
+        }
+    }
+    .flex3-card-left{
+        &__title{
+            font-size: 27px;
+        }
+    }
+    .flex3-card-right{
+        &__title{
+            font-size: 27px;
+            width: 90%;
+        }
+    }
+    .footer-colums{
+        width: 46%;
+        &__title::before {
+            left: 139px;
+        }
+        &__input{
+            width: 71%;
+        }
+    }
+    .copyright{
+        &__desc{
+            width: 41%;
+        }
+        &__list{
+            width: 31%;
+        }
+    }
+    .slide-container{
+        margin: 0 15px;
+    }
+}
+@media (max-width: 576px){
+    .video-btn{
+        cursor: pointer;
+        &__play{
+            top: 25px;
+            left: 14%;
+            background-size: 70%;
+        }
+}
+.hero{
+    &__search{
+        right: 7px;
+    }
+}
+.stories{
+    &__container{
+        height: 600px;
+    }
+}
+.stories-left{
+    width: 80%;
+    &__article{
+        display: none;
+    }
+}
+.stories-left-link{
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+.stories-right__title {
+    font-size: 33px;
+    margin: 0px 0 34px 18px;
+}
+.stories-right__item:not(:last-child){
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+.stories-right {
+    display: none;
+    padding: 39px 104px 34px 104px;
+    background: rgba(60, 74, 81, 1);
+    max-height: 74%;
+    margin-top: 135px;
+    top: auto;
+    &__item-title{
+        font-size: 15px;
+    }
+}
+.sign-up__form {
+    right: 97px;
+}
+.inspiration{
+    &__subtitle{
+        width: 90%;
+        margin: 0 auto 60px auto;
+    }
+    &__flex1-card{
+        flex-direction: column;
+        height: 50%;
+    }
+    &__flex2-card{
+        height: 50%;
+        flex-direction: column;
+    }
+    &__flex3-card{
+        height: 50%;
+        flex-direction: column;
+        padding-bottom: 65px;
+    }
+}
+.flex1-card{
+    &__left {
+    width: 100%;
+    }
+    &__article{
+        margin-top: 28px;
+        margin-right: 28px;
+
+    }
+    &__right {
+        width: 100%;
+        }
+}
+.flex1-card-left{
+    &__title {
+    font-size: 21px;
+    }
+    &__content{
+        margin-left: 30px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+}
+.flex1-card-right{
+    &__content{
+        margin-left: 30px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    &__title{
+        margin-bottom: 20px;
+        font-size: 21px;
+    }
+}
+.flex1-right{
+    &__link{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+}
+.flex2-card{
+    &__left{
+        width: 100%;
+        background-position-y: center;
+    }
+    &__middle{
+        width: 100%;
+        background-position-y: center;
+    }
+    &__right{
+        width: 100%;
+    }
+}
+.flex2-card-left{
+    &__content{
+        margin-left: 30px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    &__title{
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+}
+.flex2-card-middle{
+    &__title{
+        margin-top: 120px;
+        font-size: 21px;
+    }
+}
+.flex2-card-right{
+    &__desc{
+        margin-top: 47px;
+    }
+    &__avatar{
+        margin-bottom: 30px;
+    }
+}
+.flex3-card{
+    &__left{
+        width: 100%;
+    }
+    &__right{
+        width: 100%;
+    }
+}
+.flex3-left{
+    &__link{
+        margin-top: 30px;
+        margin-left: 30px; 
+    }
+}
+.flex3-card-left{
+    &__content{
+        margin-left: 30px;
+        margin-bottom: 30px;
+        margin-top: 25px;
+    }
+    &__title{
+        margin-bottom: 20px;
+        font-size: 21px;
+    }
+}
+.flex3-card{
+    &__article{
+        margin-top: 28px;
+        margin-right: 28px;
+
+    }
+}
+.flex3-card-right{
+    &__title {
+    font-size: 21px;
+    }
+    &__content{
+        margin-left: 30px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+}
+.footer {
+    padding-top: 64px;
+}
+.footer-colums{
+    &__title::before {
+    left: 96px;
+    }
+    &__form{
+        width: 90%;
+    }
+    &__input{
+        padding: 22px 42px 22px 18px;
+    }
+    }
+.copyright{
+    padding: 21px 0;
+    &__container{
+        flex-direction: column;
+    }
+    &__list{
+        width: 100%;
+    }
+    &__desc{
+        width: 100%;
+    }
+    }
+}
+@media (max-width: 425px){
+    .hero{
+        &__content{
+            padding: 129px 0 275px;
+        }
+        &__title{
+            font-size: 45px;
+        }
+        &__search{
+            width: 386px;
+            right: 1px;
+        }
+        &__link{
+            padding: 18px 29px;
+        }
+
+    }
+    .menu{
+        &__list{
+            height: 82dvh;
+        }
+        &__link {
+            font-weight: 700;
+            font-size: 35px;
+
+        }
+    }
+    .slider{
+        &__wrapper{
+            max-width: 411px;
+        }
+    }
+    .image-slider {
+        margin-bottom: 34px;
+    }
+    .image-slide__play {
+        top: 101px;
+    }
+    .text-slider{
+        &__slide{
+            padding-top: 4px;
+        }
+    }
+    .lesson{
+        padding: 158px 0px 45px;
+        &__title {
+            font-size: 35px;
+            margin: 0 0 34px 0;
+        }
+        &__row{
+            gap: 10px;
+        }
+        &__item{
+            width: 48%;
+        }
+        &__desc{
+            margin: 33px 13px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+    .stories-left{
+        width: 55%;
+        &__title {
+        font-size: 26px;
+        }
+        &__link{
+            padding: 19px 34px;
+            font-weight: 600;
+            margin: 0px 0 102px 0;
+        }
+        &__article{
+            display: none;
+        }
+    }
+    .stories{
+        &__container{
+            height: 600px;
+        }
+    }
+    .stories-left-link{
+        display: inline-block;
+        text-decoration: none;
+        margin-bottom: 50px;
+    }
+    .stories-right__title {
+        font-size: 33px;
+        margin: 0px 0 34px 18px;
+    }
+    .stories-right__item:not(:last-child){
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+    }
+    .stories-right {
+        padding: 34px 21px 34px 36px;
+        max-height: 74%;
+        margin-top: 135px;
+        &__item-title{
+            font-size: 15px;
+        }
+    }
+    .featured-videos{
+        padding: 50px 0;
+
+        &__title{
+            font-size: 51px;
+        }
+        &__subtitle{
+            line-height: 1;
+            margin: 0 auto 58px auto;
+        }
+
+    }
+    .slide-container{
+        height: 288px;
+        margin: 0 15px;
+    }
+    .video-slider{
+        &__image{
+            height: 280px;
+        }
+        &__title{
+            font-size: 22px;
+            font-weight: 600;
+        }
+    }
+    .video-btn{
+        cursor: pointer;
+        &__play{
+            top: 0px;
+            left: 14%;
+            background-size: 54%;
+        }
+    }
+    .inspiration{
+        &__title{
+            font-size: 51px;
+        }
+        &__subtitle{
+            width: 90%;
+            margin: 0 auto 60px auto;
+        }
+        &__flex1-card{
+            flex-direction: column;
+            height: 50%;
+        }
+        &__flex2-card{
+            height: 50%;
+            flex-direction: column;
+        }
+        &__flex3-card{
+            height: 50%;
+            flex-direction: column;
+            padding-bottom: 65px;
+        }
+    }
+
+    .flex1-card{
+        &__left {
+        width: 100%;
+        }
+        &__article{
+            margin-top: 28px;
+            margin-right: 28px;
+
+        }
+        &__right {
+            width: 100%;
+            }
+    }
+    .flex1-card-left{
+        &__title {
+        font-size: 21px;
+        }
+        &__content{
+            margin-left: 30px;
+            margin-bottom: 30px;
+            margin-top: 20px;
+        }
+    }
+    .flex1-card-right{
+        &__content{
+            margin-left: 30px;
+            margin-bottom: 30px;
+            margin-top: 20px;
+        }
+        &__title{
+            margin-bottom: 20px;
+            font-size: 21px;
+        }
+    }
+    .flex1-right{
+        &__link{
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+    }
+    .flex2-card{
+        &__left{
+            width: 100%;
+            background-position-y: center;
+        }
+        &__middle{
+            width: 100%;
+            background-position-y: center;
+        }
+        &__right{
+            width: 100%;
+        }
+    }
+    .flex2-card-left{
+        &__content{
+            margin-left: 30px;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+        &__title{
+            font-size: 21px;
+            margin-bottom: 20px;
+        }
+    }
+    .flex2-card-middle{
+        &__title{
+            margin-top: 120px;
+            font-size: 21px;
+        }
+    }
+    .flex2-card-right{
+        &__desc{
+            margin-top: 47px;
+        }
+        &__avatar{
+            margin-bottom: 30px;
+        }
+    }
+    .flex3-card{
+        &__left{
+            width: 100%;
+        }
+        &__right{
+            width: 100%;
+        }
+    }
+    .flex3-left{
+        &__link{
+            margin-top: 30px;
+            margin-left: 30px; 
+        }
+    }
+    .flex3-card-left{
+        &__content{
+            margin-left: 30px;
+            margin-bottom: 30px;
+            margin-top: 25px;
+        }
+        &__title{
+            margin-bottom: 20px;
+            font-size: 21px;
+        }
+    }
+    .flex3-card{
+        &__article{
+            margin-top: 28px;
+            margin-right: 28px;
+
+        }
+    }
+    .flex3-card-right{
+        &__title {
+        font-size: 21px;
+        }
+        &__content{
+            margin-left: 30px;
+            margin-bottom: 30px;
+            margin-top: 20px;
+        }
+    }
+    
+    .sign-up{
+        &__title{
+        font-size: 51px;
+        }
+        &__form{
+            right: 74px;
+            width: 397px;
+            padding-top: 50px;
+            &-field{
+                margin-right: 50px;
+                margin-left: 50px;
+                padding-bottom: 16px;
+            }
+            &-btn{
+                margin-top: 50px;
+                padding: 30px 0;
+            }
+        }
+    }
+    .sing-up{
+        &__content{
+            padding-top: 165px;
+            padding-bottom: 110px;
+        }
+    }
+    .footer{
+        padding-top: 56px;
+        &__colums{
+        width: 45%;
+        }
+        &__container{
+            margin-bottom: 74px;
+        }
+    }
+    .footer-colums{
+        width: 45%;
+        &__input{
+            padding: 15px 37px 15px 12px;
+            width: 68%;
+        }
+        &__btn{
+            padding: 18px 0;
+            font-weight: 600;
+        }
+        &__title{
+            &::before{
+                left: 59px;
+            }
+        }
+    }
+    .copyright{
+        padding: 21px 0;
+        &__container{
+            flex-direction: column;
+        }
+        &__list{
+            width: 100%;
+        }
+        &__desc{
+            width: 100%;
+        }
+
+    }
+}
+@media (max-width: 376px){
+    .menu__list {
+        height: 58dvh;
+    }
+    .hero{
+        &__content {
+        padding: 129px 0 222px;
+        }
+        &__search {
+            width: 321px;
+            right: 16px;
+        }
+    }
+    .slider__wrapper {
+        max-width: 357px;
+    }
+    .slider__wrapper {
+        max-width: 361px;
+    }
+    .image-slider {
+        margin-bottom: 22px;
+    }
+    .text-slider {
+        margin-bottom: 30px;
+    }
+    .hero .search-form {
+        flex-basis: 81px;
+    }
+    .image-slide__play {
+        top: 84px;
+    }
+    .stories-left {
+        width: 80%;
+    }
+    .stories-left__link{
+        letter-spacing: 2px;
+    }
+    .stories-right {
+        padding: 24px 21px 22px 29px;
+    }
+    .sing-up__content {
+        padding-top: 125px;
+    } 
+    .sign-up__form {
+        width: 346px; 
+    } 
+    .sign-up__form-field {
+        margin-right: 30px;
+        margin-left: 30px;
+        padding-bottom: 12px;
+    }
+    .flex1-right{
+        &__link{
+            svg{
+                width: 20%;
+            }
+        } 
+    }
+    .flex3-left{
+        &__link{
+            svg{
+                width: 20%;
+            }
+        } 
+    }
+    .footer-colums__title::before {
+        left: 47px;
+    }
+    .footer-colums__btn{
+        letter-spacing: 1px;
+    }
+    .hero__content {
+        padding: 129px 0 147px;
+    }
+}
